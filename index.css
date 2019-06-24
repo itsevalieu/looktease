@@ -1,0 +1,72 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit; 
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 62.5%;
+}
+/* Headings */
+h1 {
+    font-size: 2.8em;
+    padding: 0 2em;
+}
+h2 {
+    font-size: 2.2em;
+    padding: 1em 3em;
+}
+p {
+    font-size: 1.8em;
+    padding: 0;
+    margin: 0;
+    line-height: 1.6em;
+}
+
+/* Header */
+header {
+    height: 300px;
+    background: rgb(169, 210, 243);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* Nav */
+ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    padding: 0;
+    padding: 0 1em;
+}
+li {
+    padding: 1em;
+    font-size: 1.8em;
+}
+/* Main */
+main {
+    /* padding: 1em; */
+    height: 100%;
+}
+.content {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0em 3em;
+}
+.image-box, .text-box {
+    width: 50%;
+    margin: 0em 3em;
+}
+.image-box {
+    background: #ccc;
+    height: 250px;
+    width: 50%;
+}
+* {
+    /* border: 1px solid black; */
+}
