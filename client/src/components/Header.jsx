@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
 const StyledHeader = styled.header`
     background: rgb(169, 210, 243);
@@ -16,9 +17,9 @@ export default function Header() {
             <h1>LookTease</h1>
             <nav>
                 <ul>
-                    <li>About</li>
-                    <li>Shop</li>
-                    <li>Contact</li>
+                    <NavLink to='/'>Home</NavLink>
+                    <NavLink to='/shop'>Shop</NavLink>
+                    <NavLink to='/encyclopedia'>Encyclopedia</NavLink>
                 </ul>
             </nav>
         </StyledHeader>
